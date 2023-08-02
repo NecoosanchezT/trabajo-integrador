@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,400;1,200;1,800&display=swap');
+
+
+:root {
+    --background:linear-gradient(#090809,#122A77);
+    --letra: 'Montserrat', sans-serif;
+    --secundario:linear-gradient(to bottom, #31204b, #ff539b);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+   
+}
+html{
+    background: var(--background);
+    /* height: 100%; */
+}
+/* =========================header=========================== */
+   
+header {
+display: flex;
+justify-content: space-between;
+color: aliceblue;
+align-items: center;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 60px;
+    padding: 5px 60px;
+    text-transform: uppercase;
+    
+}
+   
+.navbar-list a {
+border-style: solid;
+margin-right: 5px;
+border-color: #ff539b;
+border-radius: 10px;
+border-width: 2px;
+}
+
+.logo {
+    width: 130px;
+    padding: 20px;
+    position: relative;
+    left: 30px
+}
+
+/* ==============================hero========================== */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    /* max-width: 1200px; */
+   
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 10px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero-info h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+.hero-info span {
+    font-family: 'Archivo', sans-serif;
+    background: linear-gradient(to right, #fff, #ff539b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+    
+
+main button {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+   background: #ff539b;
+    border-radius: 10px;
+    padding: 3px 15px;
+   border: none;
+   border-style: solid;
+   border-color: #ff539b;
+}
+ 
+main button:hover {
+    box-shadow:0px 0px 10px 0px aliceblue;
+    transition: all 0.6s;
+}
+main button {
+    transition:all 0.8s ;
+}
+    
+.hero-card {
+    border-radius: 10px;
+    background: #ff539b;
+    padding: 10px;
+}
+    
+.hero-card img {
+width: 800px;
+border-radius: 15px;
+}
+    
+/* =========================== about ============================= */
+    
+.about {
+    display: flex;
+    /* background: #ff539b; */
+    padding: 10px;
+    gap: 20px;
+    border-radius: 10px;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+    
+.about h3 {
+    font-size: 25px;
+}
+
+    
+.about img {
+    width: 400px;
+    background: #ff539b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* ===============================cards============================= */
+
+#cards {
+    padding: 70px 0;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+  #cards h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 100;
+    background: linear-gradient(to right, #fff, #ff539b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.info-cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+.info-cards {
+    background: #ff539b;
+    width: 330px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:first baseline;
+    gap: 20px;
+    border-radius: 3px 0px 25px 3px;
+    border-left: 10px solid red;
+}
+    
+.info-cards img {
+    width: 320px;
+    height: 180px;
+}
+
+.info-cards h3 {
+    text-transform: uppercase;
+}
+    
+.info-cards p {
+    text-align: center;
+    padding: 0px 30px;
+}
+    
+
+
+
+
+    
+
+    
+
+   
+    
+    
+
+
+
+
+   
+
+  
+    
+   
+    
+    
+    
+
+
+
+
+    
+ 
+
+
+
+
+
+    
+    
+    
+    
+
+
+   
+
+
+
+    
+   
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
